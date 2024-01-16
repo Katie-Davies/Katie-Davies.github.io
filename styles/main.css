@@ -1,3 +1,10 @@
-/* font-family: 'Calligraffitti', cursive;
-font-family: 'Englebert', cursive;
-font-family: 'Salsa', cursive; */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Source Sans 3', sans-serif; */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Source Sans 3', sans-serif;
+}
