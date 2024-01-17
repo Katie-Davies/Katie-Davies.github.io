@@ -30,3 +30,7 @@ h1 {
   color: A7727D;
   font-weight: bold;
 }
+
+#intro-name {
+  font-size: 4rem;
+}
