@@ -81,7 +81,8 @@
             the page. It is removed from the normal flow of the document. The
             element will then be positioned relative to its closest positioned
             parent element with a block display. You then use the same offset
-            properties to determine the final position from there.
+            properties to determine the final position from there. Absolute
+            elements can overlap.
           </p>
           <p>This is the static element.</p>
         </div>
@@ -92,11 +93,20 @@
           has a position of relative) with 100px right and 25px bottom. The
           border represents the div.
         </p>
-        <div id="relative-div">
+        <div class="relative-div">
           <div id="absolute-2"></div>
         </div>
         <div>
           <h2 class="research-h2">Fixed</h2>
+          <p>
+            A fixed element does not move from its position even if the page is
+            scrolled. You use the same offset properties and it is relative to
+            the viewport. The signpost image you would have seen on the top
+            right is fixed. It has a offset property of top: 2px and right 50px.
+          </p>
+        </div>
+        <div id="fixed">
+          <img src="../images/directions.png" alt="directions" />
         </div>
       </section>
     </main>
