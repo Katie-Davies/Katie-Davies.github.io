@@ -5,13 +5,23 @@ font-family: 'Source Sans 3', sans-serif;
 body {
   font-family: 'Playfair Display', serif;
   /*background-color: FDEFEF;*/
+  height: 100%;
   margin: 0;
-  background: linear-gradient(#a87c7c, #f4dfd0);
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: linear-gradient(#a87c7c, #f4dfd0);
+  background-repeat: no-repeat;
+}
+
 header,
 main {
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 
 p {
