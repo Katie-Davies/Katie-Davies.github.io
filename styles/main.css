@@ -31,9 +31,6 @@ header h1 {
   font-size: 1rem;
   color: EDDBC7;
 }
-nav {
-  background-color: 503C3C;
-}
 
 nav ul {
   display: flex;
