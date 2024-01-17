@@ -73,10 +73,8 @@ h1 {
   /*color: #7e6363;*/
   color: EDDBC7;
   text-align: center;
-
   margin: 0;
   padding: 0;
-  font-size: 1rem;
 }
 .intro-container h1 {
   margin-top: 0;
@@ -91,7 +89,14 @@ h1 {
 .intro-container p {
   padding-bottom: 10px;
   color: #7e6363;
+  font-size: 1rem;
+}
+
+.end-container p {
+  margin-bottom: 0;
 }
 footer {
   background-color: 503C3C;
+  padding: 10px;
+  color: #f4dfd0;
 }
