@@ -115,8 +115,6 @@ nav a:hover {
   text-align: center;
 }
 #relative-1 {
-  border: 3px;
-  border-color: #503c3c;
   width: 200px;
   height: 100px;
   background-color: #503c3c;
@@ -125,11 +123,17 @@ nav a:hover {
   position: relative;
   top: 30px;
   left: 100px;
-  border: 3px;
-  border-color: #503c3c;
+
   width: 200px;
   height: 100px;
   background-color: #503c3c;
+}
+.relative {
+  margin-top: 50px;
+}
+.relative img {
+  position: relative;
+  left: 100px;
 }
 .absolute h2 {
   margin-top: 50px;
