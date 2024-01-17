@@ -3,6 +3,7 @@ font-family: 'Source Sans 3', sans-serif; */
 
 body {
   font-family: 'Playfair Display', serif;
+  background-color: FDEFEF;
 }
 
 p {
@@ -10,11 +11,9 @@ p {
 }
 
 header {
-  background-color: #3aa6b9;
   margin: 0;
   padding: 0;
   display: flex;
-
   justify-content: flex-start;
   align-items: center;
 }
@@ -26,4 +25,8 @@ header {
 
 header h1 {
   font-size: 1rem;
+}
+h1 {
+  color: A7727D;
+  font-weight: bold;
 }
