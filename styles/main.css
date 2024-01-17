@@ -6,15 +6,14 @@ body {
   font-family: 'Playfair Display', serif;
   /*background-color: FDEFEF;*/
   margin: 0;
+  background: linear-gradient(#a87c7c, #f4dfd0);
 }
 header,
 main {
   margin: 0;
   padding: 0;
 }
-main {
-  background: linear-gradient(#a87c7c, #f4dfd0);
-}
+
 p {
   font-family: 'Source Sans 3', sans-serif;
   color: #7e6363;
@@ -92,43 +91,6 @@ h1 {
   font-size: 2rem;
 }
 
-.journey {
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 250px;
-  align-items: center;
-  justify-items: center;
-  font-size: 1rem;
-}
-.journey-grid-item1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  color: #7e6363;
-  justify-self: end;
-  align-self: start;
-  padding-right: 10px;
-}
-.journey-grid-item2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.journey-grid-item3 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  align-self: end;
-  justify-self: start;
-  color: #7e6363;
-  padding: 10px;
-}
-.journey img {
-  width: 100%;
-  height: 100%;
-}
 .end-container {
   text-align: center;
   padding: 20px;
