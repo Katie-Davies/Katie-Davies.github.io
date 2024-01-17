@@ -5,10 +5,16 @@ font-family: 'Source Sans 3', sans-serif;
 body {
   font-family: 'Playfair Display', serif;
   /*background-color: FDEFEF;*/
-
   margin: 0;
 }
-
+header,
+main {
+  margin: 0;
+  padding: 0;
+}
+main {
+  background: linear-gradient(#a87c7c, #f4dfd0);
+}
 p {
   font-family: 'Source Sans 3', sans-serif;
 }
@@ -64,7 +70,7 @@ h1 {
   /*color: #7e6363;*/
   color: EDDBC7;
   text-align: center;
-  background-color: #a87c7c;
+
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -77,4 +83,7 @@ h1 {
 }
 .intro-container p {
   padding-bottom: 10px;
+}
+footer {
+  background-color: 503C3C;
 }
