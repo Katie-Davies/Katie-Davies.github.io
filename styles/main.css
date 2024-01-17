@@ -21,7 +21,7 @@ body {
 main {
   margin: 0;
   padding: 0;
-  flex-grow: 1;
+  flex: 1;
 }
 
 p {
@@ -34,6 +34,7 @@ header {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  flex-shrink: 0;
   justify-content: flex-start;
   align-items: center;
   /*background-color: 503C3C;*/
@@ -71,41 +72,37 @@ nav a:hover {
   color: #503c3c;
 }
 
-h1 {
-  font-weight: bold;
-}
-
 #intro-name {
   font-size: 4rem;
 }
 
-.intro-container {
+.main-intro-container {
   /*color: #7e6363;*/
   color: EDDBC7;
   text-align: center;
   margin: 0;
   padding: 0;
 }
-.intro-container h1 {
+.main-intro-container h1 {
   margin-top: 0;
   padding-top: 16px;
 }
 
-.intro-container img {
+.main-intro-container img {
   width: 200px;
   height: auto;
   padding-bottom: 20px;
 }
-.intro-container p {
+.main-intro-container p {
   padding: 10px;
   font-size: 2rem;
 }
 
-.end-container {
+.main-end-container {
   text-align: center;
   padding: 20px;
 }
-.end-container p {
+.main-end-container p {
   margin-bottom: 0;
 }
 
@@ -113,4 +110,5 @@ footer {
   background-color: #503c3c;
   padding: 10px;
   color: #f4dfd0;
+  text-align: center;
 }
