@@ -73,6 +73,7 @@ h1 {
 .intro-container img {
   width: 200px;
   height: auto;
+  padding-bottom: 20px;
 }
 .intro-container p {
   padding-bottom: 10px;
