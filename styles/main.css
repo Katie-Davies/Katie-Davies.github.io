@@ -31,6 +31,9 @@ header h1 {
   font-size: 1rem;
   color: EDDBC7;
 }
+nav {
+  background-color: 503C3C;
+}
 
 nav ul {
   display: flex;
@@ -43,6 +46,7 @@ nav ul {
 nav li {
   margin-right: 40px;
   color: EDDBC7;
+  font-family: 'Source Sans 3', sans-serif;
 }
 nav a {
   color: EDDBC7;
@@ -66,5 +70,10 @@ h1 {
   background-color: #a87c7c;
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+
+.intro-container img {
+  width: 200px;
+  height: auto;
 }
