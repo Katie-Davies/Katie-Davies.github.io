@@ -138,6 +138,11 @@ nav a:hover {
 .absolute h2 {
   margin-top: 50px;
 }
+#absolute-1 {
+  width: 200px;
+  height: 100px;
+  background-color: #503c3c;
+}
 .relative-div {
   position: relative;
   height: 200px;
@@ -146,11 +151,7 @@ nav a:hover {
   border-width: 5px;
   border-style: solid;
 }
-#absolute-1 {
-  width: 200px;
-  height: 100px;
-  background-color: #503c3c;
-}
+
 #absolute-2 {
   width: 200px;
   height: 100px;
