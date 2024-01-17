@@ -27,7 +27,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   /*background-color: 503C3C;*/
-  background-color: A87C7C;
+  background-color: white;
 }
 #header-img {
   width: 25px;
@@ -38,7 +38,7 @@ header {
 
 header h1 {
   font-size: 1rem;
-  color: EDDBC7;
+  color: #a87c7c;
   font-family: 'Source Sans 3', sans-serif;
 }
 
@@ -49,14 +49,12 @@ nav ul {
   margin-bottom: 0;
   list-style: none;
 }
-
 nav li {
   margin-right: 40px;
-  color: EDDBC7;
   font-family: 'Source Sans 3', sans-serif;
 }
 nav a {
-  color: EDDBC7;
+  color: #a87c7c;
 }
 nav a:hover {
   color: #a87c7c;
@@ -100,11 +98,32 @@ h1 {
   align-items: center;
   justify-items: center;
 }
-.grid-item1 {
+.journey-grid-item1 {
   grid-column-start: 1;
   grid-column-end: 2;
-
   color: #7e6363;
+  justify-self: end;
+  padding-right: 10px;
+}
+.journey-grid-item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.journey-grid-item3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-self: center;
+  justify-self: start;
+  color: #7e6363;
+}
+.journey img {
+  width: 100%;
+  height: auto;
 }
 
 .end-container p {
