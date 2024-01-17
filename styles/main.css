@@ -4,7 +4,7 @@ font-family: 'Source Sans 3', sans-serif;
 
 body {
   font-family: 'Playfair Display', serif;
-  /*background-color: FDEFEF;*/
+
   height: 100%;
   margin: 0;
 }
@@ -110,7 +110,7 @@ h1 {
 }
 
 footer {
-  background-color: 503C3C;
+  background-color: #503c3c;
   padding: 10px;
   color: #f4dfd0;
 }
