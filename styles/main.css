@@ -24,7 +24,7 @@ header {
 #header-img {
   width: 25px;
   height: 25px;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 header h1 {
@@ -73,4 +73,7 @@ h1 {
 .intro-container img {
   width: 200px;
   height: auto;
+}
+.intro-container p {
+  padding-bottom: 10px;
 }
