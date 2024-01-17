@@ -20,13 +20,19 @@ body {
 
 main {
   margin: 0;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
   flex: 1;
 }
 
 p {
   font-family: 'Source Sans 3', sans-serif;
   color: #7e6363;
+}
+h1 {
+  text-align: center;
 }
 
 header {
