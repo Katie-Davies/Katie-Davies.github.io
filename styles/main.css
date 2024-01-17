@@ -40,9 +40,11 @@ h1 {
 }
 
 .intro-container {
-  color: #7e6363;
+  /*color: #7e6363;*/
+  color: EDDBC7;
   text-align: center;
   background-color: #a87c7c;
   margin: 0;
   padding: 0;
+  font-size: 2rem;
 }
