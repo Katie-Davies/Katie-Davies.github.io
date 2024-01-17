@@ -134,6 +134,32 @@ nav a:hover {
 .absolute h2 {
   margin-top: 50px;
 }
+#relative-div {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border-color: #503c3c;
+  border-width: 5px;
+  border-style: solid;
+}
+#absolute-1 {
+  border: 3px;
+  border-color: #503c3c;
+  width: 200px;
+  height: 100px;
+  background-color: #503c3c;
+}
+#absolute-2 {
+  border: 3px;
+  border-color: #503c3c;
+  width: 200px;
+  height: 100px;
+  background-color: #503c3c;
+  position: absolute;
+  right: 100px;
+  bottom: 25px;
+}
+
 footer {
   background-color: #503c3c;
   padding: 10px;

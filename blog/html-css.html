@@ -45,10 +45,10 @@
           <p>
             All elements default as block - meaning they take up the who width
             of the page The element's position in the block is default as
-            static- left side of the page. Position: static. You do not need to
-            define this one as it is the default for all elements. There are 3
-            other position values that can allow you to change the layout of
-            your html page.
+            static- top, left side of the parent container. Position: static.
+            You do not need to define this one as it is the default for all
+            elements. There are 3 other position values that can allow you to
+            change the layout of your html page.
           </p>
           <ul>
             <li>Relative</li>
@@ -75,6 +75,28 @@
         </div>
         <div class="absolute">
           <h2 class="research-h2">Absolute</h2>
+          <p>
+            When an element’s position is set to absolute, all other elements on
+            the page will ignore the element and act like it is not present on
+            the page. It is removed from the normal flow of the document. The
+            element will then be positioned relative to its closest positioned
+            parent element with a block display. You then use the same offset
+            properties to determine the final position from there.
+          </p>
+          <p>This is the static element.</p>
+        </div>
+        <div id="absolute-1"></div>
+
+        <p>
+          This next element will be relative to the parent div container(which
+          has a position of relative) with 100px right and 25px bottom. The
+          border represents the div.
+        </p>
+        <div id="relative-div">
+          <div id="absolute-2"></div>
+        </div>
+        <div>
+          <h2 class="research-h2">Fixed</h2>
         </div>
       </section>
     </main>
