@@ -34,11 +34,49 @@
     <main>
       <div>
         <h1>Research Topic</h1>
-        <h2>
+        <h2 class="research-h2">
           What are the differences between relative, absolute, and fixed
           positioning?
         </h2>
       </div>
+
+      <section>
+        <div>
+          <p>
+            All elements default as block - meaning they take up the who width
+            of the page The element's position in the block is default as
+            static- left side of the page. Position: static. You do not need to
+            define this one as it is the default for all elements. There are 3
+            other position values that can allow you to change the layout of
+            your html page.
+          </p>
+          <ul>
+            <li>Relative</li>
+            <li>Absolute</li>
+            <li>Fixed</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="research-h2">Relative</h2>
+          <p>
+            This allows you to position your element relative to its default
+            static position. You apply this by adding offset properties - top
+            (moves away from the rop), bottom (moves away from the bottom), left
+            (moves away from the left), right (moves away from the right side).
+            You can specify values in pixels, ems, or percentages.
+          </p>
+          <p>The element below has a static position.</p>
+          <div id="relative-1"></div>
+          <p>
+            This is what the element would look like with a relative position
+            with 30px top and 100px left.
+          </p>
+          <div id="relative-2"></div>
+        </div>
+        <div class="absolute">
+          <h2 class="research-h2">Absolute</h2>
+        </div>
+      </section>
     </main>
     <footer>2024 Katie's learner blog</footer>
   </div>

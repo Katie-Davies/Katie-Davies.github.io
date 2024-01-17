@@ -114,7 +114,26 @@ nav a:hover {
 .research-h2 {
   text-align: center;
 }
-
+#relative-1 {
+  border: 3px;
+  border-color: #503c3c;
+  width: 200px;
+  height: 100px;
+  background-color: #503c3c;
+}
+#relative-2 {
+  position: relative;
+  top: 30px;
+  left: 100px;
+  border: 3px;
+  border-color: #503c3c;
+  width: 200px;
+  height: 100px;
+  background-color: #503c3c;
+}
+.absolute h2 {
+  margin-top: 50px;
+}
 footer {
   background-color: #503c3c;
   padding: 10px;
