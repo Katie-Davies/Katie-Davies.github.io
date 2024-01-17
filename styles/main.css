@@ -3,7 +3,8 @@ font-family: 'Source Sans 3', sans-serif; */
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color: FDEFEF;
+  /*background-color: FDEFEF;*/
+  background-color: EDDBC7;
 }
 
 p {
@@ -33,5 +34,8 @@ h1 {
 
 #intro-name {
   font-size: 4rem;
+}
+
+.intro-container {
   text-align: center;
 }
