@@ -78,6 +78,10 @@ nav a:hover {
   color: #503c3c;
 }
 
+.date {
+  text-align: center;
+  color: #f4dfd0;
+}
 #intro-name {
   font-size: 4rem;
 }
