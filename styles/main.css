@@ -87,6 +87,9 @@ nav li:hover {
   padding-right: 50px;
   padding-top: 10px;
 }
+.nav-container ul li a {
+  padding: 0;
+}
 nav a {
   color: #a87c7c;
   text-decoration: none;
