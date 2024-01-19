@@ -104,7 +104,7 @@ nav a:hover {
   top: 100%; /* Position below the main navigation item */
   left: 0;
   background-color: white;
-  width: 100%;
+
   height: auto;
   display: none; /* Hide the li */
 }
@@ -118,7 +118,6 @@ nav li:hover .sub-nav {
   display: block;
   width: 300px;
   position: relative;
-  padding: 5% 5%;
   text-align: center;
   padding: 10px;
   background-color: white;
