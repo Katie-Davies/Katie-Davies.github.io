@@ -82,7 +82,11 @@ nav li {
 nav li:hover {
   color: #503c3c;
 }
-
+.nav-container ul li {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
 nav a {
   color: #a87c7c;
   text-decoration: none;
