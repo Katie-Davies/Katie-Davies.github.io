@@ -62,10 +62,12 @@ header h1 {
   font-family: 'Source Sans 3', sans-serif;
 }
 
-nav ul {
+.nav-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+nav ul {
   margin-top: 0;
   margin-bottom: 0;
   list-style: none;
@@ -73,6 +75,12 @@ nav ul {
 nav li {
   margin-right: 40px;
   font-family: 'Source Sans 3', sans-serif;
+  cursor: pointer;
+  color: #a87c7c;
+  float: left;
+}
+nav li:hover {
+  color: #503c3c;
 }
 nav a {
   color: #a87c7c;
@@ -80,7 +88,27 @@ nav a {
 nav a:hover {
   color: #503c3c;
 }
+.sub-nav {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+.sub-nav li {
+  position: relative;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+  background-color: white;
+}
+.nav-container ul li .sub-nav {
+  visibility: hidden;
+  opacity: 0;
+}
 
+.nav-container ul li:hover ul.sub-nav {
+  visibility: visible;
+  opacity: 1;
+}
 .date {
   text-align: center;
   color: #f4dfd0;
