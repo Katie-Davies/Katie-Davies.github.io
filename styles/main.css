@@ -250,7 +250,7 @@ footer {
   text-align: center;
 }
 #girl {
-  display: inline;
+  display: flex;
   justify-content: center;
 }
 #girl img {
@@ -262,6 +262,12 @@ footer {
 }
 #girl figcaption {
   text-align: center;
+}
+#sandwich {
+  text-align: center;
+}
+#sandwich img {
+  width: 200px;
 }
 @media screen and (max-width: 600px) {
   main {
