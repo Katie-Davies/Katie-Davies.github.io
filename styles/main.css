@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #ebebe7;
+  background-color: #e8dfeo;
   background-repeat: no-repeat;
 }
 
@@ -29,6 +29,7 @@ main {
 
 p {
   font-family: 'Source Sans 3', sans-serif;
+  color: #8a9ea7;
 }
 
 li {
@@ -36,6 +37,7 @@ li {
 }
 h1 {
   text-align: center;
+  color: #8d9b6a;
 }
 
 header {
@@ -61,7 +63,7 @@ header {
 
 header h1 {
   font-size: 1rem;
-  color: #7a77b9;
+  color: #dab682;
   font-family: 'Source Sans 3', sans-serif;
   padding-right: 20%;
 }
@@ -79,7 +81,7 @@ nav li {
   float: left;
   position: relative; /* Important for positioning the sub-menu */
   cursor: pointer;
-  color: #7a77b9;
+  color: #dab682;
 }
 
 nav li:hover {
@@ -94,7 +96,7 @@ nav li:hover {
   padding: 0;
 }
 nav a {
-  color: #7a77b9;
+  color: #dab682;
   text-decoration: none;
   display: block; /* Ensure the whole area is clickable */
   padding: 10px; /* Add padding for better click area */
@@ -136,7 +138,7 @@ nav li:hover .sub-nav {
 
 .date {
   text-align: center;
-  color: #f2c76e;
+  color: #dab692;
 }
 #intro-name {
   font-size: 4rem;
@@ -170,7 +172,7 @@ nav li:hover .sub-nav {
 }
 .main-end-container p {
   margin-bottom: 0;
-  color: #ea7186;
+  color: #8a9ea7;
 }
 .research-h2 {
   text-align: center;
@@ -255,7 +257,7 @@ nav li:hover .sub-nav {
 footer {
   padding: 10px;
   margin-top: 10px;
-  color: #ea7186;
+  color: #8a9ea7;
   text-align: left;
 }
 #girl {
