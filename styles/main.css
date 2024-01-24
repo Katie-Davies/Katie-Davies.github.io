@@ -252,9 +252,10 @@ footer {
 #girl {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 #girl img {
-  width: 150px;
+  width: 100%;
   height: 300px;
   border-radius: 20%;
   border-color: black;
