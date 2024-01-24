@@ -33,9 +33,13 @@ p {
 
 li {
   font-family: 'Old Standard TT', serif;
+  color: #8a9ea7;
 }
 h1 {
   text-align: center;
+  color: #8d9b6a;
+}
+h2 {
   color: #8d9b6a;
 }
 
@@ -178,7 +182,7 @@ nav li:hover .sub-nav {
 #relative-1 {
   width: 200px;
   height: 100px;
-  background-color: #503c3c;
+  background-color: #8a9ea7;
 }
 #relative-2 {
   position: relative;
@@ -187,7 +191,7 @@ nav li:hover .sub-nav {
 
   width: 200px;
   height: 100px;
-  background-color: #503c3c;
+  background-color: #8a9ea7;
 }
 .relative {
   margin-top: 50px;
@@ -202,13 +206,13 @@ nav li:hover .sub-nav {
 #absolute-1 {
   width: 200px;
   height: 100px;
-  background-color: #503c3c;
+  background-color: #8a9ea7;
 }
 .relative-div {
   position: relative;
   height: 200px;
   width: 100%;
-  border-color: #503c3c;
+  border-color: #8a9ea7;
   border-width: 5px;
   border-style: solid;
 }
@@ -216,7 +220,7 @@ nav li:hover .sub-nav {
 #absolute-2 {
   width: 200px;
   height: 100px;
-  background-color: #503c3c;
+  background-color: #8a9ea7;
   position: absolute;
   right: 100px;
   bottom: 25px;
