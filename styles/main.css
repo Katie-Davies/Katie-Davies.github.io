@@ -249,6 +249,20 @@ footer {
   color: #f4dfd0;
   text-align: center;
 }
+#girl {
+  display: inline;
+  justify-content: center;
+}
+#girl img {
+  width: 150px;
+  height: 300px;
+  border-radius: 20%;
+  border-color: black;
+  border-style: solid;
+}
+#girl figcaption {
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
   main {
     margin-top: 100px;
