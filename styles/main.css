@@ -42,6 +42,12 @@ h1 {
 h2 {
   color: #8d9b6a;
 }
+h3 {
+  color: #8d9b6a;
+}
+h4 {
+  color: #8d9b6a;
+}
 
 header {
   margin: 0;
@@ -239,7 +245,7 @@ nav li:hover .sub-nav {
 }
 
 .eqtable {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Old Standard TT', serif;
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
@@ -249,12 +255,11 @@ nav li:hover .sub-nav {
 }
 
 #controlFlow {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 #controlFlow li {
   list-style: none;
   padding-top: 2%;
-  color: #7e6363;
 }
 footer {
   padding: 10px;
@@ -284,7 +289,7 @@ footer {
   width: 200px;
 }
 figcaption {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Old Standard TT', serif;
   font-size: 12px;
 }
 #domStructure {
