@@ -243,11 +243,17 @@ nav li:hover .sub-nav {
 #controlFlow {
   font-family: 'Source Sans 3', sans-serif;
 }
+#controlFlow li {
+  list-style: none;
+  padding-top: 2%;
+  color: #7e6363;
+}
 footer {
-  background-color: #503c3c;
+  background-color: ;
   padding: 10px;
-  color: #f4dfd0;
-  text-align: center;
+  margin-top: 10px;
+  color: #503c3c;
+  text-align: left;
 }
 #girl {
   display: flex;
@@ -280,6 +286,10 @@ figcaption {
 #domStructure img {
   border-radius: 20%;
   border-style: solid;
+}
+
+.centerPage {
+  text-align: center;
 }
 @media screen and (max-width: 600px) {
   main {
