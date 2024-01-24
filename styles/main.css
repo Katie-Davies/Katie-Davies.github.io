@@ -271,6 +271,14 @@ footer {
 }
 figcaption {
   font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+}
+#domStructure {
+  text-align: center;
+}
+#domStructure img {
+  border-radius: 20%;
+  border-style: solid;
 }
 @media screen and (max-width: 600px) {
   main {
