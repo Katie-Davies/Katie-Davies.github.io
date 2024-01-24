@@ -1,10 +1,10 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Source Sans 3', sans-serif; 
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Old Standard TT', serif;
 */
 
 html,
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Bebas Neue', sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -28,12 +28,12 @@ main {
 }
 
 p {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Old Standard TT', serif;
   color: #8a9ea7;
 }
 
 li {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Old Standard TT', serif;
 }
 h1 {
   text-align: center;
@@ -64,7 +64,7 @@ header {
 header h1 {
   font-size: 1rem;
   color: #dab682;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   padding-right: 20%;
 }
 
@@ -77,7 +77,7 @@ nav ul {
 
 nav li {
   margin-right: 40px;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   float: left;
   position: relative; /* Important for positioning the sub-menu */
   cursor: pointer;
