@@ -315,6 +315,16 @@ figcaption {
 .growth a:hover {
   color: #8d9b6a;
 }
+#growthBrain {
+  display: flex;
+  justify-content: center;
+}
+
+#growthBrain img {
+  width: 50%;
+  align-items: center;
+  margin-top: 10%;
+}
 @media screen and (max-width: 600px) {
   main {
     margin-top: 100px;
