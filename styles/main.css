@@ -304,6 +304,17 @@ figcaption {
 .centerPage {
   text-align: center;
 }
+
+.growth a {
+  display: block;
+  text-align: center;
+  margin-top: 10%;
+  color: #8a9ea7;
+}
+
+.growth a:hover {
+  color: #8d9b6a;
+}
 @media screen and (max-width: 600px) {
   main {
     margin-top: 100px;
