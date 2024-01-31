@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #f6f6f6;
+  text-align: center;
 }
 
 main {
@@ -299,10 +300,6 @@ figcaption {
 #domStructure img {
   border-radius: 20%;
   border-style: solid;
-}
-
-.centerPage {
-  text-align: center;
 }
 
 .growth a {
