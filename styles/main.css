@@ -322,6 +322,12 @@ figcaption {
   align-items: center;
   margin-top: 10%;
 }
+.problem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 @media screen and (max-width: 600px) {
   main {
     margin-top: 100px;
