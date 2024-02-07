@@ -134,7 +134,7 @@ nav a:hover {
   top: 100%; /* Position below the main navigation item */
   left: 0;
   background-color: white;
-
+  z-index: 999;
   height: auto;
   display: none; /* Hide the li */
 }
