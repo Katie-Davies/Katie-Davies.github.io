@@ -80,7 +80,7 @@ header {
 }
 
 header h1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #dab682;
   font-family: 'Bebas Neue', sans-serif;
   padding-right: 20%;
@@ -100,6 +100,7 @@ nav li {
   position: relative; /* Important for positioning the sub-menu */
   cursor: pointer;
   color: #dab682;
+  font-size: 1.5rem;
 }
 
 nav li:hover {
