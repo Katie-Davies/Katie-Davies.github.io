@@ -35,6 +35,8 @@ p {
 li {
   font-family: 'Old Standard TT', serif;
   color: #8a9ea7;
+  list-style: none;
+  margin-top: 4%;
 }
 h1 {
   text-align: center;
