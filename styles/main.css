@@ -37,6 +37,7 @@ li {
   color: #8a9ea7;
   list-style: none;
   margin-top: 4%;
+  text-align: start;
 }
 h1 {
   text-align: center;
@@ -44,12 +45,15 @@ h1 {
 }
 h2 {
   color: #8d9b6a;
+  margin-top: 5%;
 }
 h3 {
   color: #8d9b6a;
+  margin-top: 5%;
 }
 h4 {
   color: #8d9b6a;
+  margin-top: 5%;
 }
 h5 {
   color: #8d9b6a;
