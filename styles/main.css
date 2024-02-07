@@ -147,7 +147,7 @@ nav li:hover .sub-nav {
 }
 .sub-nav li {
   display: block;
-  width: 300px;
+  width: 400px;
   position: relative;
   text-align: center;
   padding: 10px;
