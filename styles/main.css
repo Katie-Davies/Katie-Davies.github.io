@@ -343,9 +343,27 @@ figcaption {
 #whare {
   width: 100%;
 }
-@media screen and (max-width: 600px) {
+
+#brick-wall img {
+  width: 10%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 400px) {
   main {
-    margin-top: 400px;
+    margin-top: 200px;
+  }
+  #fixed img {
+    top: 150px;
+    right: 0px;
+  }
+  header h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  main {
+    margin-top: 75px;
   }
   #fixed img {
     top: 150px;
