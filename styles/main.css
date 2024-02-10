@@ -349,6 +349,17 @@ figcaption {
   flex-wrap: wrap;
 }
 
+.flex {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.flex div {
+  width: 40%;
+  margin: 10px;
+}
+
 @media screen and (max-width: 400px) {
   main {
     margin-top: 200px;
@@ -361,6 +372,7 @@ figcaption {
     font-size: 1rem;
   }
 }
+
 @media screen and (min-width: 400px) {
   main {
     margin-top: 75px;
@@ -371,5 +383,14 @@ figcaption {
   }
   header h1 {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .flex div {
+    width: 100%;
   }
 }
