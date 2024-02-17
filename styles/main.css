@@ -104,6 +104,10 @@ nav li {
   font-size: 1.5rem;
 }
 
+.navMargin {
+  margin: 10px;
+}
+
 nav li:hover {
   color: #503c3c;
 }
@@ -421,5 +425,11 @@ figcaption {
   }
   .flex div {
     width: 100%;
+  }
+  .nav-container ul li {
+    font-size: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 2px;
   }
 }
