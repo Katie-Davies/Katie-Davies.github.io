@@ -158,15 +158,33 @@ nav li:hover .sub-nav {
   box-sizing: border-box;
 }
 
+#mainIndex {
+  margin: 0px;
+  padding: 0px;
+}
 #top-container {
   display: flex;
-  justify-content: left;
-  background-image: url('./images/topcontainer.png');
+  justify-content: start;
+  align-items: center;
+  background-image: url('/images/topcontainer.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px 0px;
   height: 100vh;
   width: 100%;
+}
+#top-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 10%;
+}
+#top-container div h1 {
+  font-size: 3rem;
+}
+#top-container div p {
+  font-size: 15px;
 }
 
 .date {
